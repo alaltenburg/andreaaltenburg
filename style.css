@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #0b3d91, #1c1c3c); /* NASA blue to deep space gray */
+  color: white;
+  padding: 6px;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  background: #ddd;
+}
+
+.tablink {
+  background: #ccc;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.tablink:hover {
+  background: #bbb;
+}
+
+.tabcontent {
+  display: none;
+  padding: 2rem;
+  background: white;
+}
+
+.tabcontent h2 {
+  margin-top: 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the left */
+  gap: 16px;
+  padding: 16px;
+  background:  linear-gradient(to right, #0b3d91, #1c1c3c); /* NASA blue to deep space gray */
+  color: white;
+}
+
+.profile-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+.header-text {
+  text-align: left;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.header-text p {
+  margin: 0.5rem 0 0;
+  font-size: 1.1rem;
+}
+.welcome {
+  padding: 2rem;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.column {
+  flex: 1;
+  min-width: 250px;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.column h3 {
+  margin-top: 0;
+  color: #0b3d91;
+}
+
+.column ul {
+  padding-left: 1.2rem;
+}
+
+.column ul li {
+  margin-bottom: 0.5rem;
+}
+
